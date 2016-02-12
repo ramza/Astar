@@ -124,7 +124,7 @@ void pathFinder(Node start, Node target) {
   
   while ( !done) {
     if ( openList.size() < 1 ) break;  
-    // by default, choose the last node added to the opne list
+    // by default, choose the last node added to the open list
     int bestNode = openList.size()-1;
     Node best = (Node)openList.get(bestNode);
     float minf = best.f;
